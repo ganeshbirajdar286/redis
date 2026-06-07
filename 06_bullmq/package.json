@@ -1,0 +1,20 @@
+{
+  "name": "06_bullmq",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/api.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "bullmq": "^5.78.0",
+    "express": "^5.2.1",
+    "ioredis": "^5.11.1",
+    "nodemon": "^3.1.14"
+  }
+}

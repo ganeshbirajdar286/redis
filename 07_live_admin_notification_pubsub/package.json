@@ -1,0 +1,16 @@
+{
+  "name": "07_live_admin_notification_pubsub",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^5.11.1",
+    "nodemon": "^3.1.14"
+  }
+}

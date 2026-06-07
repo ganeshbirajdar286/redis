@@ -1,0 +1,19 @@
+{
+  "name": "04_user_profile_redis",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^5.11.1",
+    "nodemon": "^3.1.14"
+  }
+}
